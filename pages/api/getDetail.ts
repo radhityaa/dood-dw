@@ -27,8 +27,8 @@ export default async function handler(
             'Accept-Language': 'en-US,en;q=0.9',
             'Referer': 'https://vidply.com',
             'Sec-Fetch-Dest': 'document',
-        'Sec-Fetch-Mode': 'navigate',
-        'Sec-Fetch-Site': 'none',
+            'Sec-Fetch-Mode': 'navigate',
+            'Sec-Fetch-Site': 'none',
         }
     })
 
