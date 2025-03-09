@@ -52,7 +52,7 @@ export default async function handler(
             const pass_md5_url = getStringBetween("$.get('/pass_md5/", "'", body)
             const token = pass_md5_url.split("/").slice(-1)[0]
             const title = getStringBetween("<title>", "</title>", body)
-            console.log(pass_md5_url);
+            console.log(`md5: \n${pass_md5_url}`);
             
             if (pass_md5_url == '') {
                 console.log(`Body: \n${body}`)
