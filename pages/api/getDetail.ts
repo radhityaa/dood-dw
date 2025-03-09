@@ -44,7 +44,7 @@ export default async function handler(
         console.info(`VideoCode: ${videoCode}`)
         
         try {
-            const response = await axiosClient.get(`https://vidply.com/e/${videoCode}`)
+            const response = await axios.get(`https://vidply.com/e/${videoCode}`)
 
             console.log(`Response: ${response}`)
 
